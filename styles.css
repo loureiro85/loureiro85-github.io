@@ -1,58 +1,6 @@
-.jumbotron {
-    font-family: 'Source Sans Pro', sans-serif;
-    /* color      : green; */
-
+blockquote {
+    padding    : 10px 20px;
+    margin     : 0 0 20px;
+    font-size  : 14px;
+    border-left: 5px solid #eee
 }
-
-body {
-    /* background-color: #303030;
-    color           : gray;
-    font-family     : 'Source Sans Pro', sans-serif;
-    font-size       : 36px; */
-    min-height: 100vh;
-    margin-bottom:50px;
-
-}
-
-#footer {
-    position: fixed;
-    height: 50px;
-    background-color: red;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-}
-/*
-h1 {
-    color      : chocolate;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-div {
-    border-color: #27c95d;
-    text-align: center;
-}
-
-span {
-    background-color: #741b9e;
-}
-
-.p1 {
-    color      : gray;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-.grid-container {
-    display              : grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.row {
-    display: flex;
-  }
-  
-.row > div {
-    flex: 1;
-    border: 1px solid #505050;
-  } */

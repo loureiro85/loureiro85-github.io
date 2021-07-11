@@ -19,3 +19,15 @@
 
 - - -
 
+# Styles on hold
+    font-family: 'Source Sans Pro', sans-serif;
+
+    .row {
+        display: flex;
+    }
+    
+    # Add border to divs
+    .row > div {
+        flex: 1;
+        border: 1px solid #505050;
+    }

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <title>Gui's Garage</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="styles.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+<head>
+    <title>Gui's Garage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -17,28 +17,60 @@
 
     <div class="jumbotron text-center">
         <h1>Welcome to Gui's Garage!</h1>
-        <p>Data Science under construction...</p>
-        <p>(Resize this responsive page to see the effect!)</p>
+        <h1><small>Data Science under construction...</small></h1>
+        <p>[description paragraph]</p>
     </div>
 
     <div class="container">
         <div class="row">
+            <!-- recommender -->
             <div class="col-sm-4">
-                <h3>Surfboard Recommender</h3>
+                <h3>Surfboard <abbr>Recommender</abbr></h3>
+                <blockquote>
+                    <p>What is the rigth board for each surfer?</p>
+                </blockquote>
+                <dl>
+                    <dt>Inputs:</dt>
+                    <dd>Surfer's weight <code>surfer_weight</code></dd>
+                    <dd>Surfer's experience level <code>surfer_experience</code></dd>
+                    <p></p>
+                    <dt>Output:</dt>
+                    <dd>Surboard's volume: <code>surfboard_volume</code></dd>
+                </dl>
                 <p>[application]</p>
                 <p style="color:#511845;">#recommender</p>
             </div>
+
+            <!-- dataset -->
             <div class="col-sm-4">
-                <h3>Surfing Dataset</h3>
-                <p>[data]</p>
+                <h3>Surfing <abbr>Dataset</abbr></h3>
+                <blockquote>
+                    <p>What is the data needed to describe the surfing system and to recommend surfboards?</p>
+                </blockquote>
+                <dl>
+                    <dt>The surfing system is composed by:</dt>
+                    <dd>- surfer</dd>
+                    <dd>- surfboard</dd>
+                    <dd>- wave</dd>
+                </dl>
                 <p style="color:#900C3F;">#dataset</p>
             </div>
+
+            <!-- mind -->
             <div class="col-sm-4">
                 <h3>Shaper's Mind</h3>
-                <p>How to understand the shaper's (surfboard's designer) reasoning process?</p>
+                <blockquote>
+                    <p>How to understand the reasoning process of the surfboard's designer?</p>
+                </blockquote>
                 <p>[insert figure with hyperlink here]</p>
+                <pre>(weight, experience) -> volume</pre>
                 <p>[meta-data]</p>
                 <p style="color:#C70039;">#DSNmethod</p>
+                <div class="thumbnail">
+                    <a href="/images/shappers_mind.jpg" target="_blank">
+                        <img src="/images/shappers_mind.jpg" alt="Shaper's Mind" style="width:100%">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -46,7 +78,8 @@
     <footer>
         <div>
             <section class="text-center">
-                <p>© Gui's Garage - 2021</p>
+                <p>Guilherme Loureiro</p>
+                <p>© Gui's Garage - 2021 - v0.1</p>
             </section>
 
         </div>
