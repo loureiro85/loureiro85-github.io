@@ -4,13 +4,26 @@
 
 }
 
-/* body {
-    background-color: #303030;
+body {
+    /* background-color: #303030;
     color           : gray;
     font-family     : 'Source Sans Pro', sans-serif;
-    font-size       : 36px;
+    font-size       : 36px; */
+    min-height: 100vh;
+    margin-bottom:50px;
+
 }
 
+#footer {
+    position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+/*
 h1 {
     color      : chocolate;
     font-family: "Lucida Console", "Courier New", monospace;
