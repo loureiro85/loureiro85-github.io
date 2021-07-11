@@ -1,8 +1,14 @@
-body {
-    background-color: #2c2c2c;
-    color: gray;
+.jumbotron {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 36px;
+    /* color      : green; */
+
+}
+
+/* body {
+    background-color: #303030;
+    color           : gray;
+    font-family     : 'Source Sans Pro', sans-serif;
+    font-size       : 36px;
 }
 
 h1 {
@@ -11,14 +17,29 @@ h1 {
 }
 
 div {
-    background-color: #d5f4e6;
+    border-color: #27c95d;
+    text-align: center;
 }
 
 span {
-    background-color: #f18973;
+    background-color: #741b9e;
 }
 
 .p1 {
-    color: gray;
+    color      : gray;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
+.grid-container {
+    display              : grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.row {
+    display: flex;
+  }
+  
+.row > div {
+    flex: 1;
+    border: 1px solid #505050;
+  } */
